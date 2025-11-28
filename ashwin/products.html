@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fresh Basket - Products</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Fresh Basket</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <h2 class="heading">Our Products</h2>
+
+    <section class="product-grid">
+        <div class="product">
+            <img src="tomatos.jpg" alt="Tomato">
+            <h3>Fresh Tomatoes</h3>
+            <p>₹40 / kg</p>
+            <button onclick="addToCart('Fresh Tomatoes')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="apples.jpg" alt="Apples">
+            <h3>Red Apples</h3>
+            <p>₹120 / kg</p>
+            <button onclick="addToCart('Red Apples')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="milk.jpg" alt="Milk">
+            <h3>Fresh Milk</h3>
+            <p>₹28 / half litre</p>
+            <button onclick="addToCart('Fresh Milk')">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="rice.jpg" alt="Rice">
+            <h3>Premium Rice</h3>
+            <p>₹80 / kg</p>
+            <button onclick="addToCart('Premium Rice')">Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Fresh Basket | All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
